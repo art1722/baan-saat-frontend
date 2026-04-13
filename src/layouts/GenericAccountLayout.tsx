@@ -20,7 +20,7 @@ interface GenericAccountLayoutProps {
 
 const logout = async () => {
   try {
-    await axios.delete('/logout');
+    await axios.delete('/auth/logout');
     window.location.href = '/';
   } catch (error) {
     console.error('Error logging out:', error);
