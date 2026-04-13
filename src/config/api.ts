@@ -1,4 +1,4 @@
-import { API_ROOT_DEV, API_ROOT_LOCAL, API_ROOT_PROD, NODE_ENV } from './env';
+import { API_ROOT_DEV, API_ROOT_LOCAL, NODE_ENV } from './env';
 export let API_ROOT: string;
 
 if (NODE_ENV === 'development') {
