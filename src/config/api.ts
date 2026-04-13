@@ -6,7 +6,7 @@ if (NODE_ENV === 'development') {
   API_ROOT = API_ROOT_DEV;
 } else if (NODE_ENV === 'production') {
   console.log('🚀 Using PRODUCTION API 🚀');
-  API_ROOT = API_ROOT_PROD;
+  API_ROOT = '';
 } else {
   console.log('🏠 Using LOCAL API 🏠');
   API_ROOT = API_ROOT_LOCAL;
